@@ -5,16 +5,16 @@ A series of applications to retrieve, process, and visualize email data from a m
 ## Usage
 
 The first step is to spider the email repository.
-The base url is hard-coded in the **gmane.py** file and is hard-coded to the Sakai developer list.
+The base url is hard-coded in the **retrieve_mail.py** file and is hard-coded to the Sakai developer list.
 You can spider another repository by changing that base url.
 Make sure to delete the **content.sqlite** file if you switch the base url.
-The gmane.py file operates as a spider, in that it runs slowly and retrieves one mail message per second.
+The retrieve_mail.py file operates as a spider, in that it runs slowly and retrieves one mail message per second.
 It stores all of its data in a database and can be interrupted and re-started as often as needed.
 It may take many hours to pull all the data down and so, you may need to restart several times.
-Here is a run of gmane.py getting the first five messages of the Sakai developer list:
+Here is a run of retrieve_mail.py getting the first five messages of the Sakai developer list:
 
 ```
-python gmane.py
+python retrieve_mail.py
 
 Output:
 How many messages to retrieve? 10
