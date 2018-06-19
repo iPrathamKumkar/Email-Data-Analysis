@@ -162,7 +162,7 @@ Output written to line.js
 Open line.htm to visualize the data
 ```
 
-This produces the file **line.js** which you can visualize using the file **line.htm**.
+Its output is written to **line.js** which is visualized using **line.htm**.
 
 ## Authors
 
