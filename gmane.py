@@ -91,7 +91,7 @@ fail = 0
 while True:
     if many < 1:
         conn.commit()
-        sval = input('How many messages:')
+        sval = input('How many messages to retrieve? ')
         if len(sval) < 1:
             break
         many = int(sval)
