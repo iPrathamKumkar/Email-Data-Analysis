@@ -138,6 +138,7 @@ ox.ac.uk 1485
 berkeley.edu 1388
 ```
 
+<br />
 There is a simple visualization of the word frequencies in the subject lines, in the file **word.py**:
 
 ```
