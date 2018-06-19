@@ -47,6 +47,7 @@ It continues spidering until it has spidered the desired number of messages or i
 The content.sqlite data is pretty raw, with an inefficient data model, and not compressed.
 It would be a bad idea to run any queries against this database as they would be slow.
 <br />
+<br />
 The second process is running the program **model.py**.
 model.py reads the rough/raw data from content.sqlite and produces a cleaned-up and well-modeled version of the data and stores it in the file **index.sqlite**.
 The file index.sqlite will be much smaller than content.sqlite because it also compresses the header and body text.
@@ -100,6 +101,8 @@ You can re-run the model.py over and over as you look at the data, and add mappi
 When you are done, you will have a nicely indexed version of the email in index.sqlite.
 This is the file to use to do data analysis.
 With this file, data analysis will be really quick.
+<br />
+<br />
 The first, simplest data analysis is to do a "Who does the most emails?" and "Which organization does the most emails?"
 This is done using **basic.py**:
 
@@ -147,6 +150,7 @@ Open word.htm in a browser to see the visualization
 ```
 
 This produces the file **word.js** which you can visualize using the file **word.htm**.
+<br />
 <br />
 A second visualization is in **line.py**.
 It visualizes email participation by organizations over time.
