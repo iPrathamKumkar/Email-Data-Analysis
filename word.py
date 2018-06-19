@@ -52,4 +52,4 @@ fhand.write("\n];\n")
 fhand.close()
 
 print("Output written to word.js")
-print("Open word.htm in a browser to see the vizualization")
+print("Open word.htm in a browser to see the visualization")

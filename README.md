@@ -100,7 +100,7 @@ You can re-run the model.py over and over as you look at the data, and add mappi
 When you are done, you will have a nicely indexed version of the email in index.sqlite.
 This is the file to use to do data analysis.
 With this file, data analysis will be really quick.
-The first, simplest data analysis is to do a "Who does the most?" and "Which organization does the most?"
+The first, simplest data analysis is to do a "Who does the most emails?" and "Which organization does the most emails?"
 This is done using **basic.py**:
 
 ```
@@ -143,7 +143,7 @@ python word.py
 Output:
 Range of counts: 43177 324
 Output written to word.js
-Open word.htm in a browser to see the vizualization
+Open word.htm in a browser to see the visualization
 ```
 
 This produces the file **word.js** which you can visualize using the file **word.htm**.
