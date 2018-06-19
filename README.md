@@ -169,10 +169,10 @@ Open line.htm to visualize the data
 
 Its output is written to **line.js** which is visualized using **line.htm**.
 
-## Authors
+## Author
 
 * **Prathamesh Kumkar** - [iPrathamKumkar](https://github.com/iPrathamKumkar)
 
-## Acknowledgments
+## Acknowledgment
 
 * Special thanks to Mr. Charles Severance!
